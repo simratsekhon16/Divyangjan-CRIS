@@ -1,0 +1,13 @@
+/* footer.component.css */
+footer {
+    bottom: 0;
+    width: 100%;
+    background-color: #488cbd;
+  }
+  .bg-primary {
+    background-color: rgb(31, 58, 99)!important;
+  }
+  .custom-footer {
+    background-color:rgb(31, 58, 99);
+  }
+  

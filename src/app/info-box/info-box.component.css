@@ -1,0 +1,13 @@
+.info-box {
+    background-color: #7ccff3;
+    color: rgb(15, 15, 15);
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  .info-box p {
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: bold;
+  }

@@ -1,0 +1,57 @@
+.login-container {
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 8px;
+    
+  }
+  .main-title {
+    color: #2c3e50;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-left: 22px;
+  }
+  .login-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  .login-title {
+    color: white;
+    background-color: #34495e;
+    padding: 10px;
+    font-size: 23px;
+    margin: -20px -20px 20px -20px;
+    border-radius: 8px 8px 0 0;
+  }
+  .logo {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .logo img {
+    max-width: 100px; /* Adjust this value to make the image smaller or larger */
+    display: inline-block;
+    max-height:100px;
+  }
+  .form-group label {
+    font-weight: bold;
+  }
+  
+  .btn{
+    background-color: #3498db;
+    border-color: #3498db;
+  }
+  .resend-link {
+    color: #e74c3c;
+    text-decoration: none;
+    margin-left: 310px;
+  }
+  .new-user {
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+  }
+  .btn-secondary {
+    background-color: #95a5a6;
+    border-color: #95a5a6;
+  }

@@ -1,0 +1,23 @@
+/* app.component.css */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+#divAppRoot {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensures the div covers the full height of the viewport */
+}
+
+.main-content {
+  flex: 1 0 auto; /* Allows the content to grow and take up remaining space */
+}
+
+app-footer {
+  flex-shrink: 0; /* Prevents the footer from shrinking */
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}

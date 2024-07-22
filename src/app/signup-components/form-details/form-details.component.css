@@ -1,0 +1,97 @@
+
+.signup-form {
+  margin-top: 20px !important;
+  border-radius: 8px; /* Rounded corners for the card */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow */
+  max-width: 900px; /* Increased max-width to make the form wider */
+  margin: 0 auto; /* Center the card horizontally */
+  height: 680px; /* Allow the height to adjust based on content */
+  margin-bottom: 30px !important;
+}
+.card-header.bg-primary {
+  background-color: rgb(31, 58, 99) !important;
+}
+
+/* Card Header */
+.card-header {
+  background-color:rgb(31, 58, 99); /* Primary color */
+  color: #ffffff; /* White text */
+  padding: 10px; /* Adjusted padding for a smaller height */
+  font-size: 1.2rem; /* Slightly larger text */
+  text-align: center; /* Center the text */
+}
+
+/* Card Body */
+.card-body {
+  background-color: #f8f9fa; /* Light background color */
+  padding: 20px; /* Add padding */
+  height:590px
+}
+
+/* Form Title */
+.card-title {
+  font-size: 1rem; /* Adjusted font size */
+  margin-bottom: 1rem; /* Spacing below the title */
+}
+
+/* Form Controls */
+.form-control {
+  border-radius: 4px; /* Rounded corners */
+  border: 1px solid #ced4da; /* Light border color */
+  padding: 12px; /* Add padding */
+  font-size: 0.9rem; /* Slightly smaller font size */
+  box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+
+/* Form Buttons */
+.btn {
+  font-size: 1rem; /* Larger font size */
+  padding: 12px; /* Add padding */
+  border-radius: 4px; /* Rounded corners */
+}
+
+/* Get OTP Button */
+.btn-warning {
+  background-color: #ffc107; /* Warning color */
+  border: none; /* Remove default border */
+}
+
+.btn-warning:hover {
+  background-color: #e0a800; /* Darker color on hover */
+}
+
+/* Sign Up Button */
+.btn-primary {
+  background-color: rgb(31, 58, 99); /* Primary color */
+  border: none; /* Remove default border */
+}
+
+.btn-primary:hover {
+  background-color:rgb(31, 58, 99); /* Darker color on hover */
+}
+
+/* Switch for Identity Verification */
+.form-check-input {
+  width: 1.5em; /* Larger switch */
+  height: 1.5em; /* Larger switch */
+}
+
+/* Optional: Margin for buttons */
+.btn-warning {
+  margin-right: 0; /* Remove margin */
+}
+
+@media (max-width: 767px) {
+  .form-control, .btn {
+    font-size: 0.85rem; /* Slightly smaller font size */
+  }
+
+  .btn-warning, .btn-primary {
+    padding: 10px; /* Slightly less padding on smaller screens */
+  }
+
+  .signup-form {
+    max-width: 100%; /* Full width on smaller screens */
+  }
+}

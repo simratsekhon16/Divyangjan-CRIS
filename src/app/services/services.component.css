@@ -1,0 +1,87 @@
+.services-container {
+    background-color: white;
+    margin-top: 27px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 20px;
+  }
+
+  .services-title {
+    color: white;
+    background-color: #34495e;
+    padding: 10px;
+    margin: -20px -20px 20px -20px;
+    border-radius: 8px 8px 0 0;
+    font-size: 23px;
+  }
+  
+  .service-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .service-item.purple {
+    background-color: #d882c0; 
+  }
+  
+  .service-item.yellow {
+    background-color: #ead48b; 
+  }
+  
+  .service-item.blue {
+    background-color: #86bee6; 
+  }
+  
+  .service-item.red {
+    background-color: #e2929e; 
+  }
+  
+  .icon-bg {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    overflow: hidden;
+    margin-right: 15px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+  }
+  .icon-bg img{
+    width: 70%; 
+    height: auto; 
+    object-fit: contain;
+  }
+  
+  .service-item.purple .icon-bg {
+    background-color: #e732b3; 
+  }
+  
+  .service-item.yellow .icon-bg {
+    background-color: #e7bd30; 
+  }
+  
+  .service-item.blue .icon-bg {
+    background-color: #2196F3; 
+  }
+  
+  .service-item.red .icon-bg {
+    background-color: #F44336; 
+  }
+  
+  .icon-bg i {
+    color: #ffffff; 
+  }
+  
+  .service-content h4 {
+    margin: 0 0 5px 0;
+    color: #333333;
+  }
+  
+  .service-content p, .service-content a {
+    margin: 0;
+    color: #666666;
+  }

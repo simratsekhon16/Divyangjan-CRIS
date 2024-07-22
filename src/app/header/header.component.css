@@ -1,0 +1,26 @@
+header {
+    font-family: Arial, sans-serif;
+    background-color:rgb(65, 95, 140);
+  }
+  .custom-header {
+    background-color:rgb(31, 58, 99);
+  }
+  .bg-primary {
+    background-color: rgb(31, 58, 99)!important;
+  }
+  h1 {
+    font-size: 1.2rem;
+  }
+  h1 small {
+    font-size: 0.8rem;
+  }
+  
+  .nav-link {
+    padding: 0.25rem 0.5rem;
+  }
+  
+  .btn-light {
+    font-size: 0.9rem;
+    padding: 0.25rem 0.5rem;
+    background-color: #3c6fa6;
+  }

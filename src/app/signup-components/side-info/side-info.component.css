@@ -1,0 +1,108 @@
+/* styles.css */
+.container {
+  max-width: 100%; /* Ensure the container is responsive */
+  padding: 20px;
+}
+
+.card {
+  border: none; /* Remove default border */
+  border-radius: 8px; /* Rounded corners */
+  overflow: hidden; /* Ensure content doesn't overflow */
+  margin-bottom: 0px;
+}
+
+.train-image-card {
+  overflow: hidden;
+  /* Set a fixed height and make sure it maintains the aspect ratio */
+  height: 280px; /* Adjust this value as needed */
+  margin-bottom: 30px;
+}
+
+
+.train-image-card .image-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.train-image-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Make sure the image covers the container */
+}
+
+.card-body {
+  padding: 0px;
+}
+
+.container {
+  max-width: 100%; /* Ensure the container is responsive */
+  padding: 20px;
+}
+
+.card {
+  border: none; /* Remove default border */
+  border-radius: 8px; /* Rounded corners */
+  overflow: hidden; /* Ensure content doesn't overflow */
+}
+
+.train-image-card {
+  overflow: hidden;
+  /* Set a fixed height and make sure it maintains the aspect ratio */
+  height: 280px; /* Adjust this value as needed */
+}
+
+
+.train-image-card .image-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.train-image-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Make sure the image covers the container */
+}
+
+.card-body {
+  padding: 10px;
+}
+
+.icon {
+  width: 45px; /* Adjust the size of the icon */
+  height: 40px;
+  margin-right: 10px;
+  vertical-align: middle !important;
+}
+
+.card-link {
+  color: #007bff;
+  text-decoration: none;
+}
+.card-title{
+  margin-bottom: 0px;
+}
+
+.card-link:hover {
+  text-decoration: underline;
+}
+
+/* Optional: Add margin for card image */
+.train-image-card {
+  margin-bottom: 20px;
+}
+
+.card-link:hover {
+  text-decoration: underline;
+}
+
+/* Optional: Add margin for card image */
+.train-image-card {
+  margin-bottom: 20px;
+}
